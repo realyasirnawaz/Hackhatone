@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-logo{
+    width: 200px;
+    height: 40px;
+    
+}
+.Navbar{
+    margin: 0 auto;
+}
+.nav-li{
+    gap: 10px;
+}
+.nav-link {
+    font-weight: 500;
+}
+.dark-button{
+      padding-left: 150px;
+}
+.Employee-text{
+    color: #6851ff;;
+}
+/* .First-Section-Main{
+    display: flex;
+    margin: 0 auto;
+} */
+
+.Resume-text{
+    font-size: 20px;
+    text-transform:uppercase;
+     color: #6851ff;
+     font-weight: 700;
+}
+.Resume-good-text{
+    font-size: 55px;
+    font-weight: 700;
+}
+.Responsive-img{
+    max-width: 100%;
+    height: auto;
+}
+
+.upolad-box{
+    border: 2px dashed #6851ff;
+    border-radius: 20px;
+  
+
+}
+.upolad-icon-container{
+     border-radius: 16px;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.Second-section{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+
+
+.Skill-Suggestion  {
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       border: 2 px solid transparent;
+      background-color: wheat;
+       border-radius: 20px;
+       overflow: hidden;
+       padding-left: 20px;
+       padding-top: 20px;
+       padding-right: 100px;
+       padding-bottom: 0px;
+        
+       width: 30%;
+       
+       
+}
+
+.Resume-sections{
+     display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+      border: 2 px solid transparent;
+       background-color: wheat;
+       border-radius: 20px;
+       overflow: hidden;
+       padding-left: 20px;
+       padding-top: 20px;
+       padding-right: 80px;
+       padding-bottom: 0;
+       margin-left: 10px;
+       width: 30%;
+}
+
+
+
+.Resume-optimize{
+        width: 50%;
+
+}
+
+
+.Essential-test{
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px) {
+    .First-Section-Main{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: 100%;
+    }
+    .checklist-section{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
